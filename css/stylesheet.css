@@ -27,7 +27,7 @@ h1{
 #box{
     color: #2a3240;
     height: 37rem;
-    width: 25rem;
+    width: 23rem;
     background-color: #A0C0D6;
     border-radius: 20px;
 }
@@ -73,5 +73,12 @@ form{
 }
 
 #flag_placement{
-    font-size: 3rem;
+    display: inline;
+    font-size: 5rem;
+}
+
+#country_placement{
+    font-weight: bolder;
+    font-size: x-large;
+    color: #425a7d;
 }
