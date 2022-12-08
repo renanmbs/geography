@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/stylesheet.css" rel="stylesheet">
+    <title>Random Geography</title>
+</head>
+<body>
+
+    <video autoplay muted loop id="earth">
+        <source src="./img/mixkit-milky-way-seen-at-night-4148.mp4" type="video/mp4">
+    </video>
+    
+    <section id="container">
+        <header>
+            <h1>Random Geography</h1>
+        </header>
+
+        <section id="box">
+            <section id="text">
+
+                <form>
+
+                    <section id="choice">
+                        <h3>What Would You Like to Do?</h3>
+                            <select id="choice2">
+                                <option value="def" default>Default</option>
+                                <option value="rand">Get Random Country</option>
+                                <option value="flag" >Flag Quiz</option>
+                                <option value="cap" >Capital Quiz</option>
+                            </select>
+                    </section>
+
+                </form>
+
+                <section id="new_get">
+                    <h2>New Country</h2>
+
+                    <button id="get_country">Get!</button>
+                </section>
+
+                <section id="flag_quiz_area">
+                    <h2>Flag Quiz</h2>
+
+                    <button id="get_flag">Start</button>
+
+                    <section id="flag_game">
+                        <h3>Flag</h3>
+                        <p id="flag_placement"></p>
+                        <form id="form_flag">
+                            <label for="flag_input">Country</label><br>
+                            <input type="text" name="flag_input" id="flag_input"><br>
+                            <input type="submit">
+                        </form>
+                        <p id="flag_result"></p>
+
+                        <section id="correction_flag">
+                            <h4>Correct result:</h4>
+                            <p id="correct_flag"></p>
+                        </section>
+                    </section>
+                    
+                </section>
+
+                <section id="capital_quiz_area">
+                    <h2>Capital Quiz</h2>
+
+                    <button id="get_capital">Start</button>
+
+                    <section id="capital_game">
+                        <h3>Country</h3>
+                        <p id="country_placement"></p>
+                        <form id="form_capital">
+                            <label for="capital_input">Capital</label><br>
+                            <input type="text" name="capital_input" id="capital_input"><br>
+                            <input type="submit">
+                        </form>
+                        <p id="capital_result"></p>
+
+                        <section id="correction_capital">
+                            <h4>Correct result:</h4>
+                            <p id="correct_capital"></p>
+                        </section>
+                    </section>
+                </section>
+               
+
+                <section id="results">
+
+                    <h3>Flag</h3>
+                    <p id="flag"></p>
+
+                    <h3>Name</h3>
+                    <p id="name"></p>
+
+                    <h3>Capital</h3>
+                    <p id="capital"></p>
+            </section>
+                
+            </section>
+    
+        </section>
+    </section>
+    
+</body>
+<script src="./js/app.js"></script>
+</html>
